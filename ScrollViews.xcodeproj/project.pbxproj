@@ -19,6 +19,9 @@
 		592A0FBE1B87AF6C003F672D /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 592A0FB81B87AF6C003F672D /* photo4.png */; };
 		592A0FBF1B87AF6C003F672D /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 592A0FB91B87AF6C003F672D /* photo5.png */; };
 		592A0FC01B87AF6C003F672D /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 592A0FBA1B87AF6C003F672D /* slow.png */; };
+		596E17581B87C9530055B948 /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E17571B87C9530055B948 /* PagedScrollViewController.swift */; };
+		596E175A1B87D3510055B948 /* PeekPagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E17591B87D3510055B948 /* PeekPagedScrollViewController.swift */; };
+		59E461761B87BCE000C8F34F /* CustomScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E461751B87BCE000C8F34F /* CustomScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		592A0FB81B87AF6C003F672D /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
 		592A0FB91B87AF6C003F672D /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
 		592A0FBA1B87AF6C003F672D /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		596E17571B87C9530055B948 /* PagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
+		596E17591B87D3510055B948 /* PeekPagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekPagedScrollViewController.swift; sourceTree = "<group>"; };
+		59E461751B87BCE000C8F34F /* CustomScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 			children = (
 				592A0F941B87AF3F003F672D /* AppDelegate.swift */,
 				592A0F961B87AF3F003F672D /* ViewController.swift */,
+				59E461751B87BCE000C8F34F /* CustomScrollViewController.swift */,
+				596E17571B87C9530055B948 /* PagedScrollViewController.swift */,
+				596E17591B87D3510055B948 /* PeekPagedScrollViewController.swift */,
 				592A0F981B87AF3F003F672D /* Main.storyboard */,
 				592A0F9B1B87AF3F003F672D /* Images.xcassets */,
 				592A0F9D1B87AF3F003F672D /* LaunchScreen.xib */,
@@ -245,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				592A0F971B87AF3F003F672D /* ViewController.swift in Sources */,
+				596E17581B87C9530055B948 /* PagedScrollViewController.swift in Sources */,
 				592A0F951B87AF3F003F672D /* AppDelegate.swift in Sources */,
+				596E175A1B87D3510055B948 /* PeekPagedScrollViewController.swift in Sources */,
+				59E461761B87BCE000C8F34F /* CustomScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				592A0FB01B87AF3F003F672D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		592A0FB11B87AF3F003F672D /* Build configuration list for PBXNativeTarget "ScrollViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				592A0FB31B87AF3F003F672D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
